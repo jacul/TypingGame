@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75BC2531A2445F50073C3CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75BC2521A2445F50073C3CE /* AppDelegate.swift */; };
+		F75BC2551A2445F50073C3CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75BC2541A2445F50073C3CE /* ViewController.swift */; };
+		F75BC2581A2445F50073C3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75BC2561A2445F50073C3CE /* Main.storyboard */; };
+		F75BC25A1A2445F50073C3CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75BC2591A2445F50073C3CE /* Images.xcassets */; };
+		F75BC25D1A2445F50073C3CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F75BC25B1A2445F50073C3CE /* LaunchScreen.xib */; };
+		F75BC2691A2445F50073C3CE /* TypingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75BC2681A2445F50073C3CE /* TypingGameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75BC2631A2445F50073C3CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75BC2451A2445F50073C3CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75BC24C1A2445F50073C3CE;
+			remoteInfo = TypingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F75BC24D1A2445F50073C3CE /* TypingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75BC2511A2445F50073C3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75BC2521A2445F50073C3CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F75BC2541A2445F50073C3CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F75BC2571A2445F50073C3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F75BC2591A2445F50073C3CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F75BC25C1A2445F50073C3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F75BC2621A2445F50073C3CE /* TypingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75BC2671A2445F50073C3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75BC2681A2445F50073C3CE /* TypingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingGameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75BC24A1A2445F50073C3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75BC25F1A2445F50073C3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75BC2441A2445F50073C3CE = {
+			isa = PBXGroup;
+			children = (
+				F75BC24F1A2445F50073C3CE /* TypingGame */,
+				F75BC2651A2445F50073C3CE /* TypingGameTests */,
+				F75BC24E1A2445F50073C3CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75BC24E1A2445F50073C3CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75BC24D1A2445F50073C3CE /* TypingGame.app */,
+				F75BC2621A2445F50073C3CE /* TypingGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75BC24F1A2445F50073C3CE /* TypingGame */ = {
+			isa = PBXGroup;
+			children = (
+				F75BC2521A2445F50073C3CE /* AppDelegate.swift */,
+				F75BC2541A2445F50073C3CE /* ViewController.swift */,
+				F75BC2561A2445F50073C3CE /* Main.storyboard */,
+				F75BC2591A2445F50073C3CE /* Images.xcassets */,
+				F75BC25B1A2445F50073C3CE /* LaunchScreen.xib */,
+				F75BC2501A2445F50073C3CE /* Supporting Files */,
+			);
+			path = TypingGame;
+			sourceTree = "<group>";
+		};
+		F75BC2501A2445F50073C3CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75BC2511A2445F50073C3CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F75BC2651A2445F50073C3CE /* TypingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F75BC2681A2445F50073C3CE /* TypingGameTests.swift */,
+				F75BC2661A2445F50073C3CE /* Supporting Files */,
+			);
+			path = TypingGameTests;
+			sourceTree = "<group>";
+		};
+		F75BC2661A2445F50073C3CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75BC2671A2445F50073C3CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75BC24C1A2445F50073C3CE /* TypingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75BC26C1A2445F50073C3CE /* Build configuration list for PBXNativeTarget "TypingGame" */;
+			buildPhases = (
+				F75BC2491A2445F50073C3CE /* Sources */,
+				F75BC24A1A2445F50073C3CE /* Frameworks */,
+				F75BC24B1A2445F50073C3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypingGame;
+			productName = TypingGame;
+			productReference = F75BC24D1A2445F50073C3CE /* TypingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75BC2611A2445F50073C3CE /* TypingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75BC26F1A2445F50073C3CE /* Build configuration list for PBXNativeTarget "TypingGameTests" */;
+			buildPhases = (
+				F75BC25E1A2445F50073C3CE /* Sources */,
+				F75BC25F1A2445F50073C3CE /* Frameworks */,
+				F75BC2601A2445F50073C3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75BC2641A2445F50073C3CE /* PBXTargetDependency */,
+			);
+			name = TypingGameTests;
+			productName = TypingGameTests;
+			productReference = F75BC2621A2445F50073C3CE /* TypingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75BC2451A2445F50073C3CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = jacul;
+				TargetAttributes = {
+					F75BC24C1A2445F50073C3CE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F75BC2611A2445F50073C3CE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F75BC24C1A2445F50073C3CE;
+					};
+				};
+			};
+			buildConfigurationList = F75BC2481A2445F50073C3CE /* Build configuration list for PBXProject "TypingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F75BC2441A2445F50073C3CE;
+			productRefGroup = F75BC24E1A2445F50073C3CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75BC24C1A2445F50073C3CE /* TypingGame */,
+				F75BC2611A2445F50073C3CE /* TypingGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75BC24B1A2445F50073C3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75BC2581A2445F50073C3CE /* Main.storyboard in Resources */,
+				F75BC25D1A2445F50073C3CE /* LaunchScreen.xib in Resources */,
+				F75BC25A1A2445F50073C3CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75BC2601A2445F50073C3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75BC2491A2445F50073C3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75BC2551A2445F50073C3CE /* ViewController.swift in Sources */,
+				F75BC2531A2445F50073C3CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75BC25E1A2445F50073C3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75BC2691A2445F50073C3CE /* TypingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75BC2641A2445F50073C3CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75BC24C1A2445F50073C3CE /* TypingGame */;
+			targetProxy = F75BC2631A2445F50073C3CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F75BC2561A2445F50073C3CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75BC2571A2445F50073C3CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F75BC25B1A2445F50073C3CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75BC25C1A2445F50073C3CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F75BC26A1A2445F50073C3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F75BC26B1A2445F50073C3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75BC26D1A2445F50073C3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TypingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F75BC26E1A2445F50073C3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TypingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F75BC2701A2445F50073C3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TypingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypingGame.app/TypingGame";
+			};
+			name = Debug;
+		};
+		F75BC2711A2445F50073C3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TypingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypingGame.app/TypingGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75BC2481A2445F50073C3CE /* Build configuration list for PBXProject "TypingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75BC26A1A2445F50073C3CE /* Debug */,
+				F75BC26B1A2445F50073C3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75BC26C1A2445F50073C3CE /* Build configuration list for PBXNativeTarget "TypingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75BC26D1A2445F50073C3CE /* Debug */,
+				F75BC26E1A2445F50073C3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F75BC26F1A2445F50073C3CE /* Build configuration list for PBXNativeTarget "TypingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75BC2701A2445F50073C3CE /* Debug */,
+				F75BC2711A2445F50073C3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F75BC2451A2445F50073C3CE /* Project object */;
+}
